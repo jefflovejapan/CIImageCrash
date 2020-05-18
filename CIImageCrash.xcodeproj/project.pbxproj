@@ -14,6 +14,7 @@
 		1F334D282472FE570036B83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F334D272472FE570036B83E /* Assets.xcassets */; };
 		1F334D2B2472FE570036B83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F334D292472FE570036B83E /* LaunchScreen.storyboard */; };
 		1F334D362472FE570036B83E /* CIImageCrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F334D352472FE570036B83E /* CIImageCrashTests.swift */; };
+		1F334D43247302720036B83E /* computerTime.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 1F334D42247302720036B83E /* computerTime.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1F334D312472FE570036B83E /* CIImageCrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIImageCrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F334D352472FE570036B83E /* CIImageCrashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImageCrashTests.swift; sourceTree = "<group>"; };
 		1F334D372472FE570036B83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F334D42247302720036B83E /* computerTime.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = computerTime.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1F334D1D2472FE560036B83E /* CIImageCrash */ = {
 			isa = PBXGroup;
 			children = (
+				1F334D42247302720036B83E /* computerTime.MOV */,
 				1F334D1E2472FE560036B83E /* AppDelegate.swift */,
 				1F334D202472FE560036B83E /* SceneDelegate.swift */,
 				1F334D222472FE560036B83E /* ViewController.swift */,
@@ -182,6 +185,7 @@
 			files = (
 				1F334D2B2472FE570036B83E /* LaunchScreen.storyboard in Resources */,
 				1F334D282472FE570036B83E /* Assets.xcassets in Resources */,
+				1F334D43247302720036B83E /* computerTime.MOV in Resources */,
 				1F334D262472FE560036B83E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QE4PFXDL4H;
 				INFOPLIST_FILE = CIImageCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QE4PFXDL4H;
 				INFOPLIST_FILE = CIImageCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
